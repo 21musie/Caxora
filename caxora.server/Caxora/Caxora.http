@@ -1,0 +1,6 @@
+@Caxora_HostAddress = http://localhost:5147
+
+GET {{Caxora_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
