@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\25191\\Desktop\\caxora\\Caxora\\Caxora\\Caxora.csproj": {}
+    "C:\\Users\\y\\Caxora\\caxora.server\\Caxora\\Caxora.csproj": {}
   },
   "projects": {
-    "C:\\Users\\25191\\Desktop\\caxora\\Caxora\\Caxora\\Caxora.csproj": {
+    "C:\\Users\\y\\Caxora\\caxora.server\\Caxora\\Caxora.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\25191\\Desktop\\caxora\\Caxora\\Caxora\\Caxora.csproj",
+        "projectUniqueName": "C:\\Users\\y\\Caxora\\caxora.server\\Caxora\\Caxora.csproj",
         "projectName": "Caxora",
-        "projectPath": "C:\\Users\\25191\\Desktop\\caxora\\Caxora\\Caxora\\Caxora.csproj",
-        "packagesPath": "C:\\Users\\25191\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\25191\\Desktop\\caxora\\Caxora\\Caxora\\obj\\",
+        "projectPath": "C:\\Users\\y\\Caxora\\caxora.server\\Caxora\\Caxora.csproj",
+        "packagesPath": "C:\\Users\\y\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\y\\Caxora\\caxora.server\\Caxora\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\25191\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\y\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,19 +44,39 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.15, )"
             },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.15, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.2.1, )"
             }
           },
           "imports": [
@@ -78,7 +98,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
