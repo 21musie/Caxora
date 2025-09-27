@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Caxora")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b7e3a1343eb5892a52dec7eeb07fa87ca51c2a3d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cefb8a104bb8229cea6a2ac1926d520b248f16ae")]
 [assembly: System.Reflection.AssemblyProductAttribute("Caxora")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Caxora")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
