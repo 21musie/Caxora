@@ -1,4 +1,4 @@
-.dashboard-container {
+.homepage-container {
   min-height: 100vh;
   position: relative;
   overflow: hidden;
@@ -6,7 +6,7 @@
   border-radius: 20px;
 }
 
-.dashboard-container::before {
+.homepage-container::before {
   content: '';
   position: absolute;
   top: 0;
@@ -75,7 +75,7 @@
 }
 
 /* Main Content */
-.dashboard-content {
+.homepage-content {
   position: relative;
   z-index: 10;
   min-height: 100vh;
@@ -87,7 +87,7 @@
 }
 
 /* Header */
-.dashboard-header {
+.homepage-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1723,15 +1723,15 @@
 }
 
 @media (max-width: 768px) {
-  .dashboard-container {
+  .homepage-container {
     border-radius: 15px;
   }
   
-  .dashboard-content {
+  .homepage-content {
     padding: 0;
   }
   
-  .dashboard-header {
+  .homepage-header {
     padding: 20px 20px;
   }
   

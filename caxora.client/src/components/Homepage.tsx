@@ -75,17 +75,17 @@ const Homepage: React.FC = () => {
   };
 
   return (
-    <div className="dashboard-container">
+    <div className="homepage-container">
       {/* Background Field Image */}
       <div className="field-background">
         <div className="field-overlay" />
       </div>
 
       {/* Main Content */}
-      <div className="dashboard-content">
+      <div className="homepage-content">
         {/* Header */}
         <motion.header 
-          className="dashboard-header"
+          className="homepage-header"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
